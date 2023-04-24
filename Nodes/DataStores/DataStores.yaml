@@ -1,2 +1,76 @@
 Name: DataStores
+Id: g=33b613a253e1cb8fa6dabb2c092b1433
 Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=fb6d4e4832b3cdcd10f80a46b6950f08
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=e2de9b9476ce5e2dc725e6dfa9066763
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=0e7e3158e4bf251a56b85fce7409f54f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=4bf4d7b920a0afa25b31dc133a94aa55
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=df2ae105268ff9f7f2f31b26b7dcd586
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=edf9ce1dd93ac89a57b9b4e4aaad709f
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=23;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=59
+    Direction: Forward

@@ -1,0 +1,39 @@
+Name: ModbusDriver1
+Id: g=76d9fe62389ab10d846a30bcc800ae1c
+Type: ModbusDriver
+Children:
+- Name: Protocol
+  Id: g=61b0b6f4e3eaaf54056970d0dabe3402
+  Type: BaseDataVariableType
+  DataType: ModbusProtocol
+  Value: 0
+- Name: SerialPort
+  Id: g=dcebd5ff4582989d11694efef40378fa
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "COM1"
+- Name: Baudrate
+  Id: g=385f5675e89bde916fdd345c870753d6
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 9600
+- Name: DataSize
+  Id: g=330a9bfb2e40ff3e220d59cc98c33edd
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 8
+- Name: Parity
+  Id: g=f977e11a6f5da18045ceb6c52e3ac404
+  Type: BaseDataVariableType
+  DataType: Parity
+  Value: 0
+- Name: StopBits
+  Id: g=f75ec9bc3862c12f851644024e7603ff
+  Type: BaseDataVariableType
+  DataType: StopBits
+  Value: 0
+- Name: FlowControl
+  Id: g=83775d2f417f190f6cb4c063bacfe83d
+  Type: BaseDataVariableType
+  DataType: FlowControl
+  Value: 0
